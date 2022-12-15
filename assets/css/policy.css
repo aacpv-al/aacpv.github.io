@@ -1,0 +1,69 @@
+.parallax-hero-title {
+  font-size: 4rem !important;
+}
+
+.multi-toggle-wrapper .mt-item {
+position: relative;
+margin-top: 10px;
+margin-bottom: 1px;
+width: 100%;
+color: #444F60;
+border: 1px solid #ededed;
+overflow: hidden;
+}
+
+.multi-toggle-wrapper .mt-item .mt-item-input {
+position: absolute;
+opacity: 0;
+z-index: -1;
+}
+
+.multi-toggle-wrapper .mt-item .mt-item-label {
+position: relative;
+display: block;
+padding: 15px 0 15px 35px;
+background: #fff;
+font-weight: bold;
+line-height: 3;
+cursor: pointer;
+color: #cecece;
+text-transform: uppercase;
+font-size: 1.8em;
+margin-bottom: 0;
+border-radius: 3px 3px 0 0;
+border-bottom: 1px solid #ededed;
+}
+
+.multi-toggle-wrapper .mt-item .mt-item-label span {
+color: #444F60;
+font-weight: 600;
+text-transform: none;
+transition: all .45s;
+}
+
+.multi-toggle-wrapper .mt-item .mt-item-input:checked ~ .mt-item-content {
+max-height: 100em;
+}
+
+.multi-toggle-wrapper .mt-item .mt-item-content {
+max-height: 0;
+overflow: hidden;
+transition: max-height .45s;
+background-color: #fff;
+border-radius: 3px;
+}
+
+.solid-list {
+padding-left: 30px;
+}
+
+.solid-list-item {
+padding-left: 30px;
+font-size: 18px;
+}
+
+.multi-toggle-wrapper .mt-item .mt-item-content p {
+margin: 1em;
+font-size: 1.4em;
+text-align: justify;
+}

@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7F00FF" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#7F00FF">
+  <meta name="google-site-verification" content="h3VimsjagBUg3tha2fHZ5OxM4ydyotOBtaznmO4aanQ" />
+  <title>DARCA Softwares - Desenvolvimento de Aplicativos</title>
+  <meta name="description" content="Agência de Desenvolvimento de Aplicativos">
+  <meta name="author" content="DARCA Softwares">
+  <meta name=”keywords”
+    content="fabrica de aplicativos,desenvolvimento de aplicativos, aplicativos android, agencia de aplicativos, empresa mobile, 
+    empresa de software , empresa de aplicativos, criação de aplicativos, mobile development, android development, 
+    mobile software develpment, mobile company , software company, mobile software company ">
+
+  <!-- facebook and other social sites -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Darca Softwares">
+  <meta property="og:title" content="Darca Softwares - Desenvolvimento de Aplicativos">
+  <meta property="og:description" content="Agência de Desenvolvimento de Aplicativos">
+  <meta property="og:image" content="https://darcasoftwares.com.br/assets/images/logo.png">
+  <meta property="og:url" content="https://darcasoftwares.com.br">
+
+  <link rel="icon" type="image/png" href="assets/images/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#7F00FF">
+  <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#7F00FF">
+  <!-- Core css -->
+  <link rel="stylesheet" id="bulma" href="assets/css/bulma1.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/core.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/darca-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <!-- Plugins css -->
+  <link rel="stylesheet" type="text/css" href="assets/js/slick-carousel/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/js/slick-carousel/slick-theme.css">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/js/ggpopover/ggtooltip.css"> -->
+  <!-- Icons -->
+  <link rel="stylesheet" type="text/css" href="assets/css/icons.min.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/cookie.css">
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+
+  <!-- Hero (with absolute positionned pseudo element) and nav -->
+  <div id="landing-hero" class="hero is-relative is-theme-secondary hero-waves">
+    <div class="navbar-wrapper navbar-fade navbar-light">
+      <div class="hero-head">
+        <!-- Nav -->
+        <div class="container">
+          <nav class="nav">
+            <div class="container big">
+              <div class="nav-left">
+                <a class="nav-item" style="padding-left: 20px;">
+                  <img class="light-logo" src="assets/images/logo.png" alt="logomarca">
+                  <h1 class="text-logo nav-item is-tab nav-inner"
+                    style="padding-left: 15px;  font-size: 16px; font-weight: 600">DARCA Softwares</h1>
+                </a>
+                <a href="#competencias" class="nav-item is-tab nav-inner is-not-mobile">
+                  Competências
+                </a>
+                <a href="#tecnologias" class="nav-item is-tab nav-inner is-not-mobile">
+                  Tecnologias
+                </a>
+                <a href="#depoimentos" class="nav-item is-tab nav-inner is-not-mobile">
+                  Depoimentos
+                </a>
+                <a href="https://darcasoftwares.com.br" class="nav-item is-tab nav-inner is-not-mobile">
+                  Shop
+                </a>
+              </div>
+              <!-- Responsive toggle -->
+              <span class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+              <div class="nav-right nav-menu">
+                <a href="#competencias" class="nav-item is-tab nav-inner is-menu-mobile">
+                  Competências
+                </a>
+                <a href="#tecnologias" class="nav-item is-tab nav-inner is-menu-mobile">
+                  Tecnologias
+                </a>
+                <a href="#depoimentos" class="nav-item is-tab nav-inner is-menu-mobile">
+                  Depoimentos
+                </a>
+                <a href="https://darcasoftwares.com.br/home" class="nav-item is-tab nav-inner is-menu-mobile">
+                  Shop
+                </a>
+                <span class="nav-item">
+                  <a href="#orcamento_gratuito"
+                    class="button button-signup btn-outlined is-bold btn-align light-btn rounded">
+                    ORÇAMENTO GRATUITO
+                  </a>
+                </span>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- /Nav -->
+      </div>
+    </div>
+
+    <!-- Hero caption -->
+    <div id="main-hero" class="hero-body ">
+      <div class="container">
+        <div class="columns is-vcentered is-tablet-portrait">
+          <!-- Caption -->
+          <div class="column is-5 header-caption has-text-left">
+
+            <h1 class="landing-title">
+              <span id="title"></span>
+            </h1>
+            <h2 class="subtitle is-5 light-text">
+              Transforme suas idéias em resultados!
+            </h2>
+            <p class="pt-10 pb-10">
+              <a href="#orcamento_gratuito"
+                class="button button-cta btn-align btn-outlined is-bold light-btn rounded z-index-2">
+                Solicite um Orçamento Gratuitamente
+              </a>
+            </p>
+          </div>
+       
+          <div class="column is-9 is-offset-1">
+            <figure class="image is-3by2">
+         
+            </figure>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+    <!-- /Hero caption -->
+  </div>
+  <!-- /Hero and nav -->
+
+  <!-- Services section -->
+  <section id="competencias" class="section is-medium">
+    <div class="container">
+      <!-- Title -->
+      <div class="section-title-wrapper has-text-centered">
+        <div class="bg-number"><i class="im im-icon-Rocket"></i></div>
+        <h2 class="section-title-landing">
+          Desenvolvimento Ágil e Flexível
+        </h2>
+      </div>
+
+      <!-- /Title -->
+      <div class="content-wrapper">
+        <div class="columns is-vcentered is-multiline has-text-centered">
+          <!-- Icon block -->
+          <div class="column is-3">
+            <div class="wavy-icon-box">
+              <div class="is-icon-reveal">
+                <i class="im im-icon-Speach-Bubble2"></i>
+              </div>
+              <div class="box-title">Comunicação</div>
+              <p class="box-content is-tablet-padded">Comunicação em todo o processo de desenvolvimento, entre em
+                contato conosco a qualquer momento.</p>
+            </div>
+          </div>
+        
+          <!-- Icon block -->
+          <div class="column is-3">
+            <div class="wavy-icon-box">
+              <div class="is-icon-reveal">
+                <i class="im im-icon-Arrow-Around"></i>
+              </div>
+              <div class="box-title">Gerenciamento de Atividades</div>
+              <p class="box-content is-tablet-padded">Entregamos as funcionalidades de seu aplicativo em ciclos de
+                entrega.</p>
+            </div>
+          </div>
+          <!-- Icon block -->
+          <div class="column is-3">
+            <div class="wavy-icon-box">
+              <div class="is-icon-reveal">
+                <i class="im im-icon-Timer-2"></i>
+              </div>
+              <div class="box-title">Prazo</div>
+              <p class="box-content is-tablet-padded">Seu prazo é nossa prioridade, entregamos o seu projeto no prazo
+                combinado.</p>
+            </div>
+          </div>
+          <!-- Icon block -->
+          <div class="column is-3">
+            <div class="wavy-icon-box">
+              <div class="is-icon-reveal">
+                <i class="im im-icon-Smartphone-3"></i>
+              </div>
+              <div class="box-title">Protótipo Mobile</div>
+              <p class="box-content is-tablet-padded">Veja seu projeto na primeira entrega, já na tela do seu
+                dispositivo.</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  <!-- /Services section -->
+
+  <!-- Features section -->
+  <section class="section section-feature-grey is-medium">
+    <div class="container">
+      <!-- Title -->
+      <div class="section-title-wrapper has-text-centered">
+        <div class="bg-number"><i class="im im-icon-Medal-2"></i></div>
+        <h2 class="section-title-landing">
+          Qualidade
+        </h2>
+        <h4>
+          Temos como foco principal a usabilidade e experiência do usuário, assim como os melhores resultados para o
+          seu projeto.
+        </h4>
+      </div>
+      <!-- /Title -->
+
+      <div class="content-wrapper">
+        <div class="columns is-vcentered pb-40 pt-40">
+          <div class="column is-4 is-offset-1">
+            <!-- Title -->
+            <div class="icon-subtitle"><i class="im im-icon-Business-ManWoman"></i></div>
+            <div class="title quick-feature is-handwritten text-bold">
+              <div>Equipe Especializada</div>
+              <div class="bg-number">@</div>
+            </div>
+            <!-- /Title -->
+            <div class="title-divider is-small"></div>
+            <span class="section-feature-description">
+              Temos uma equipe especializada em desenvolvimento de software para
+              executar o seu projeto com as melhores práticas.
+            </span>
+   
+          </div>
+          <div class="column is-6 is-offset-1">
+            <!-- Featured illustration -->
+            <img class="" src="assets/images/illustrations/drawings/full-team.svg" alt="Equipe">
+            <!-- /Featured illustration -->
+          </div>
+        </div>
+
+        <div class="columns is-vcentered pb-40 pt-40">
+        
+          <div class="column is-6">
+            <!-- Featured illustration -->
+            <img src="assets/images/illustrations/drawings/stats.svg" alt="">
+            <!-- /Featured illustration -->
+          </div>
+          <!-- This column will display only on desktop and tablet landscape resolutions -->
+          <!-- <div class="column is-4 is-offset-1 is-hidden-mobile"> -->
+          <div class="column is-4 is-offset-1">
+            <!-- Title -->
+            <div class="icon-subtitle"><i class="im im-icon-Bar-Chart"></i></div>
+            <div class="title quick-feature is-handwritten text-bold">
+              <h2>Acompanhamento</h2>
+              <div class="bg-number"><i class="im im-icon-Bar-Chart3"></i></div>
+            </div>
+            <!-- /Title -->
+            <div class="title-divider is-small"></div>
+            <span class="section-feature-description">Obtenha informações do seu projeto em andamento, acompanhe a
+              execução do seu projeto com métricas e relatórios para tomar as melhores decisões nos momentos
+              certos.</span>
+          </div>
+          <!-- /so the original flow is kept -->
+        </div>
+
+        <div class="has-text-centered is-title-reveal pt-20 pb-20">
+          <a href="#orcamento_gratuito" class="button button-cta primary-btn rounded raised">Começar Agora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Features section -->
+
+  <div class="grid-clients three-grid pt-80 pb-80 is-medium section">
+    <div class="container">
+      <!-- Title -->
+      <div class="section-title-wrapper has-text-centered">
+        <div class="bg-number"><i class="im im-icon-Gears"></i></div>
+        <h2 class="section-title-landing">
+          Recursos
+        </h2>
+        <h4>Implementamos recursos avançados seja qual for a necessidade do seu projeto.</h4>
+      </div>
+      <!-- /Title -->
+    </div>
+    <div class="content-wrapper">
+      <div class="columns is-vcentered is-multiline has-text-centered">
+        <div class="column is-hidden-mobile"></div>
+        <!-- Icon box -->
+        <div class="column is-3">
+          <div class="square-icon-box rounded secondary">
+            <div class="icon-box-wrapper">
+              <div class="icon-box">
+                <i class="material-icons">dashboard</i>
+              </div>
+            </div>
+            <div class="box-title">
+              Painel Administrativo
+            </div>
+            <div class="box-text is-tablet-padded-lg">Desenvolvemos Painéis Administrativos para acompanhamento,
+              monitoramento e gerenciamento do projeto.
+            </div>
+          </div>
+        </div>
+        <!-- Icon box -->
+        <div class="column is-3">
+          <div class="square-icon-box rounded secondary">
+            <div class="icon-box-wrapper">
+              <div class="icon-box">
+                <i class="material-icons">notifications</i>
+              </div>
+            </div>
+            <div class="box-title">
+              Notificações
+            </div>
+            <div class="box-text is-tablet-padded-lg">
+              Envio de notificações automáticas, manuais, e agendadas, para o melhor engajamento dos usuários.
+            </div>
+          </div>
+        </div>
+        <!-- Icon box -->
+        <div class="column is-3">
+          <div class="square-icon-box rounded secondary">
+            <div class="icon-box-wrapper">
+              <div class="icon-box">
+                <i class="material-icons">location_on</i>
+              </div>
+            </div>
+            <div class="box-title">
+              GPS/Mapas
+            </div>
+            <div class="box-text is-tablet-padded-lg">
+              Utilizamos sensores dos dispositivos para obter dados de geolocalização para a necessidade do seu projeto.
+            </div>
+          </div>
+        </div>
+        <!-- /Icon box -->
+        <div class="column is-hidden-mobile"></div>
+      </div>
+
+      <div class="columns is-vcentered has-text-centered">
+        <div class="column is-hidden-mobile"></div>
+        <!-- Icon box -->
+        <div class="column is-3">
+          <div class="square-icon-box rounded primary">
+            <div class="icon-box-wrapper">
+              <div class="icon-box">
+                <i class="material-icons">cloud</i>
+              </div>
+            </div>
+            <div class="box-title">
+              Computação em Nuvem
+            </div>
+            <div class="box-text is-tablet-padded-lg">
+              Utilizamos servidores hospedados na nuvem para a melhor escalabilidade do seu projeto
+            </div>
+          </div>
+        </div>
+        <!-- /Icon box -->
+        <!-- Icon box -->
+        <div class="column is-3">
+          <div class="square-icon-box rounded primary">
+            <div class="icon-box-wrapper">
+              <div class="icon-box">
+                <i class="material-icons">lock</i>
+              </div>
+            </div>
+            <div class="box-title">
+              Segurança
+            </div>
+            <div class="box-text is-tablet-padded-lg">
+              Utilizamos certificados, ofuscação de código e implementações de segurança para o seu projeto.
+            </div>
+          </div>
+        </div>
+        <!-- /Icon box -->
+        <!-- Icon box -->
+        <div class="column is-3">
+          <div class="square-icon-box rounded primary">
+            <div class="icon-box-wrapper">
+              <div class="icon-box">
+                <i class="material-icons">public</i>
+              </div>
+            </div>
+            <div class="box-title">
+              Integrações
+            </div>
+            <div class="box-text is-tablet-padded-lg">
+              Implementamos integrações com outros sistemas ou API's de pagamentos.
+            </div>
+          </div>
+        </div>
+        <!-- /Icon box -->
+        <div class="column is-hidden-mobile"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="tecnologias" class="grid-clients three-grid pt-80 pb-80 is-medium section">
+    <!-- Title -->
+    <div class="section-title-wrapper has-text-centered">
+      <div class="bg-number"><i class="im im-icon-Medal-3"></i></div>
+      <h2 class="section-title-landing">
+        Tecnologias
+      </h2>
+      <h4>Utilizamos as mais novas e melhores tecnologias do mercado.</h4>
+    </div>
+    <!-- /Title -->
+    <div class="content-wrapper">
+      <div class="columns is-vcentered is-multiline has-text-centered">
+        <div class="column is-hidden-mobile"></div>
+        <!-- Icon box -->
+        <div class="column is-3">
+          <div class="square-icon-box rounded secondary">
+            <div class="icon-box-wrapper">
+              <img src="assets/images/tec-img/android.png" width="90px" height="90px" />
+            </div>
+          </div>
+        </div>
+        <!-- Icon box -->
+        <div class="column is-3">
+          <div class="square-icon-box rounded secondary">
+            <div class="icon-box-wrapper">
+              <img src="assets/images/tec-img/apple.png" width="90px" height="90px" />
+            </div>
+          </div>
+        </div>
+        <!-- Icon box -->
+        <div class="column is-3">
+          <div class="square-icon-box rounded secondary">
+            <div class="icon-box-wrapper">
+              <img src="assets/images/tec-img/firebase.png" width="90px" height="90px" />
+            </div>
+          </div>
+        </div>
+
+        <!-- /Icon box -->
+        <div class="column is-hidden-mobile"></div>
+      </div>
+
+      <div class="columns is-vcentered is-multiline has-text-centered">
+        <div class="column is-hidden-mobile"></div>
+        <!-- Icon box -->
+        <div class="column is-3">
+          <div class="square-icon-box rounded secondary">
+            <div class="icon-box-wrapper">
+              <img src="assets/images/tec-img/html5.png" width="120px" height="120px" />
+            </div>
+          </div>
+        </div>
+        <!-- Icon box -->
+        <div class="column is-3">
+          <div class="square-icon-box rounded secondary">
+            <div class="icon-box-wrapper">
+              <img src="assets/images/tec-img/css3.png" width="85px" height="85px" />
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-3">
+          <div class="square-icon-box rounded secondary">
+            <div class="icon-box-wrapper">
+              <img src="assets/images/tec-img/reactjs.png" width="130px" height="130px" />
+            </div>
+          </div>
+        </div>
+               <!-- /Icon box -->    
+ 
+        <!-- /Icon box -->
+        <div class="column is-hidden-mobile"></div>
+      </div>
+
+      <div class="columns is-vcentered is-multiline has-text-centered">
+        <div class="column is-hidden-mobile"></div>
+             <!-- Icon box -->
+             <div class="column is-3">
+              <div class="square-icon-box rounded secondary">
+                <div class="icon-box-wrapper">
+                  <img src="assets/images/tec-img/javascript.png" width="70px" height="70px" />
+                </div>
+              </div>
+            </div>
+        <!-- Icon box -->
+      
+           <div class="column is-3">
+            <div class="square-icon-box rounded secondary">
+              <div class="icon-box-wrapper">
+                <img src="assets/images/tec-img/ecma6.png" width="70px" height="70px" />
+              </div>
+            </div>
+          </div>
+   
+        <!-- Icon box -->
+        <div class="column is-3">
+          <div class="square-icon-box rounded secondary">
+            <div class="icon-box-wrapper">
+              <img src="assets/images/tec-img/typescript.png" width="70px" height="70px" />
+            </div>
+          </div>
+        </div>
+    
+        <!-- /Icon box -->
+        <div class="column is-hidden-mobile"></div>
+      </div>
+      <br>
+      <div class="columns is-vcentered is-multiline has-text-centered">
+        <div class="column is-hidden-mobile"></div>
+             <!-- Icon box -->
+             <div class="column is-3">
+              <div class="square-icon-box rounded secondary">
+                <div class="icon-box-wrapper">
+                  <img src="assets/images/tec-img/embarcadero.png" width="70px" height="70px" />
+                </div>
+              </div>
+            </div>
+        <!-- Icon box -->
+      
+           <div class="column is-3">
+            <div class="square-icon-box rounded secondary">
+              <div class="icon-box-wrapper">
+                <img src="assets/images/tec-img/docker.png" width="90px" height="90px" />
+              </div>
+            </div>
+          </div>
+   
+        <!-- Icon box -->
+        <div class="column is-3">
+          <div class="square-icon-box rounded secondary">
+            <div class="icon-box-wrapper">
+              <img src="assets/images/tec-img/github2.png" width="70px" height="70px" />
+            </div>
+          </div>
+        </div>
+    
+        <!-- /Icon box -->
+        <div class="column is-hidden-mobile"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Clientes section-->
+  <section id="basic" class="section is-medium">
+    <div class="container">
+      <div class="section-title-wrapper has-text-centered">
+        <div class="bg-number"><i class="im im-icon-MaleFemale"></i></div>
+        <h2 class="title section-title has-text-centered dark-text text-bold">
+          Clientes
+        </h2>
+        <br>
+        <h4>Alguns de nossos clientes.</h4>
+      </div>
+    </div>
+
+    <div class="hero-foot pt-10 pb-10">
+      <div class="container">
+        <div class="tabs partner-tabs is-centered">
+          <ul>
+            <li><a href="https://emanutencao.herokuapp.com/" target="_blank"><img class="partner-logo"
+                  src="assets/images/logos/clients/emanutencao.png" alt=""></a></li>
+            <li><a href="https://www.groupballot.com/" target="_blank"><img class="partner-logo"
+                  src="assets/images/logos/clients/groupballot.png" alt=""></a></li>
+            <li><a href="https://www.amparobrasil.com.br/" target="_blank"><img class="partner-logo"
+                  src="assets/images/logos/clients/amparo.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- /Clientes section -->
+
+  <!-- Portfolio section -->
+  <section id="basic" class="section is-medium">
+    <div class="container">
+      <div class="section-title-wrapper has-text-centered">
+        <div class="bg-number"><i class="im im-icon-Monitor-Laptop"></i></div>
+        <h2 class="title section-title has-text-centered dark-text text-bold">
+          Portfolio
+        </h2>
+        <br>
+        <h4>Aplicativos, sites e sistemas em diferentes áreas de negócios.</h4>
+        <div class="has-text-centered is-title-reveal pt-20 pb-20">
+          <a href="#" class="button button-cta primary-btn rounded raised" target="_blank">Ver Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials section -->
+  <section id="depoimentos" class="section is-medium">
+
+    <div class="container">
+
+      <div class="section-title-wrapper has-text-centered">
+        <div class="bg-number"><i class="material-icons">favorite</i></div>
+        <h2 class="section-title-landing">
+          Satisfação Garantida
+        </h2>
+        <h4>Veja o depoimento de algum dos nossos clientes.</h4>
+      </div>
+
+      <div class="content-wrapper">
+        <div class="columns">
+          <div class="column"></div>
+
+          <div class="column is-6">
+            <div class="testimonials is-wavy">
+
+              <div class="testimonial-item">
+                <div class="flex-card card-overflow raised">
+                  <div class="testimonial-avatar">
+                    <a href="https://www.facebook.com/talles.augusto.10" target="_blank"><img
+                        src="assets/images/talles.jpg" alt="Talles Augusto - Sempre IoT"></a>
+                  </div>
+                  <div class="testimonial-name">
+                    <h3><a href="https://www.facebook.com/talles.augusto.10" target="_blank">Talles Augusto</a></h3>
+                    <span>Sempre IoT</span>
+                  </div>
+                  <div class="testimonial-content">
+                    <p>
+                      Iniciamos nosso projeto de desenvolvimento mobile com a DARCA Softwares, nos orçaram um preço justo e de antemão já fizeram um protótipo para entendimento do app. A equipe da DARCA é muito dinâmica, flexível, de fácil entendimento e principalmente de desenvolvimento ágil. Pelo nosso pouco conhecimento em mobile nos sugeriram várias melhorias estéticas inclusive nos forneceram boas sugestões para problemas no backend que não eram de vossas alçadas, tornando assim um ambiente amistoso e descontraído.
+                    </p>
+                    <p>
+                      O fato de estarmos distantes não foi impeditivo de nenhuma ação, pois seus desenvolvedores são atenciosos e de alta disponibilidade, sempre que necessário agendam reuniões com horários que atendam a agenda de todos.
+                    </p>
+                    <p>
+                      Nós da SempreIoT estamos muito contentes com essa bela parceria formada com a DARCA e acabou sendo fruto de uma grande amizade com seus colaboradores, sem sombra de dúvida continuaremos com novos projetos nesta parceria pois essa equipe conquistou nossa plena confiança.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-item">
+                <div class="flex-card card-overflow raised">
+                  <div class="testimonial-avatar">
+                    <a href="https://www.facebook.com/cfernandezpilier" target="_blank"><img
+                        src="assets/images/cesar.jpg" alt="Cesar Fernandez"></a>
+                  </div>
+                  <div class="testimonial-name">
+                    <h3><a href="https://www.facebook.com/cfernandezpilier" target="_blank">Cesar Fernández</a></h3>
+                    <span>Group Ballot</span>
+                  </div>
+                  <div class="testimonial-content">                   
+                                        
+                    
+                    <p>
+                      Estamos felizes porque eles tiveram a capacidade de ouvir atentamente para avaliar o que realmente
+                      queremos e deram o melhor deles.
+
+                    </p>
+                    <p>
+                      Hoje confiamos na DARCA Softwares esperamos que os outros se sintam confortáveis como já somos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="testimonial-item">
+                <div class="flex-card card-overflow raised">
+                  <div class="testimonial-avatar">
+                    <a href="http://www.supernova.com.br/" target="_blank"><img
+                        src="assets/images/logos/logo-tgsistemas.png" alt="Cesar Fernandez"></a>
+                  </div>
+                  <div class="testimonial-name">
+                    <h3><a href="http://www.supernova.com.br/" target="_blank">Alexandre Souza</a></h3>
+                    <span>TG Sistemas</span>
+                  </div>
+                  <div class="testimonial-content">
+                    <p>Empresa séria e competente, realizamos um projeto de implementação de um APP para emissão de
+                      Notas Ficais, com desenvolvimento compartilhado com nossa equipe própria de desenvolvimento, onde
+                      construímos os serviços e eles o APP para consumo dos serviços. Projeto realizado com sucesso !
+                      Mesmo ao final do projeto tivemos algumas dúvidas sobre as publicações nas store’s e mesmo com o
+                      projeto já finalizado obtivemos o suporte e apoio.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-item">
+                <div class="flex-card card-overflow raised">
+                  <div class="testimonial-avatar">
+                    <a href="https://www.linkedin.com/in/fernandagasparotto/" target="_blank"><img
+                        src="assets/images/fernanda.jpg" alt="Fernanda Gasparotto"></a>
+                  </div>
+                  <div class="testimonial-name">
+                    <h3><a href="https://www.linkedin.com/in/fernandagasparotto/" target="_blank">Fernanda
+                        Gasparotto</a></h3>
+                    <span>E-Manutenção</span>
+                  </div>
+                  <div class="testimonial-content">
+                    <p>Excelente em tudo, dedicação a entregar tudo e muito mais do que foi combinado. Mais do que isso
+                      a dedicação em entender o que imaginamos para o aplicativo.
+                    </p>
+                    <p>Fiquei muito satisfeita com todo o andamento e os serviços requeridos e entregues pela DARCA Softwares.</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+          <div class="column"></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- /Testimonials section -->
+
+  <section class="section is-medium is-relative section-feature-grey">
+    <div class="container">
+
+      <!-- Shopping -->
+      <div class="section-title-wrapper has-text-centered" id="shopping">
+        <div class="bg-number">$</div>
+        <h2 class="section-title-landing">
+          Baixo Custo
+        </h2>
+        <h4>Contrate nossos produtos ou serviços de baixo custo, de forma rápida e simples!</h4>
+        <br>
+        <a class="button button-cta btn-align secondary-btn btn-outlined is-bold rounded raised no-lh"
+          href="https://darcasoftwares.com.br" target="_blank">Contratar Agora!</a>
+      </div>
+      <!-- /Title -->
+    </div>
+  </section>
+  
+  <!-- Contact form -->
+  <section id="orcamento_gratuito" class="section is-medium is-relative footer-waves section-feature-grey">
+    <div class="container">
+
+      <!-- Title -->
+      <div class="section-title-wrapper has-text-centered">
+        <div class="bg-number">$</div>
+        <h2 class="section-title-landing">
+          Solicite um Orçamento Gratuito
+        </h2>
+        <h4>A partir de agora, seu projeto terá a atenção e dedicação de nossa equipe!</h4>
+      </div>
+      <!-- /Title -->
+
+      <div class="content-wrapper giant-pb">
+        <form id="formContato">
+          <div class="columns">
+            <div class="column is-8 is-offset-2">
+              <div class="columns is-vcentered">
+                <div class="column is-6">
+                  <!-- Form field -->
+                  <div class="control-material is-accent">
+                    <input id="nome" class="material-input" type="text" required>
+                    <span class="material-highlight"></span>
+                    <span class="bar"></span>
+                    <label>Nome</label>
+                  </div>
+                  <!-- /Form field -->
+                </div>
+                <div class="column is-6">
+                  <!-- /Form field -->
+                  <div class="control-material is-accent">
+                    <input id="email" class="material-input" type="email" required>
+                    <span class="material-highlight"></span>
+                    <span class="bar"></span>
+                    <label>Email</label>
+                  </div>
+                  <!-- /Form field -->
+                </div>
+              </div>
+              <div class="columns is-vcentered">
+                <div class="column is-3">
+                  <!-- Form field -->
+                  <div class="control-material is-accent">
+                    <input id="telefone" class="material-input" type="tel" required>
+                    <span class="material-highlight"></span>
+                    <span class="bar"></span>
+                    <label>Whatsapp</label>
+                  </div>
+                  <!-- /Form field -->
+                </div>
+                <div class="column is-9">
+                  <!-- Form field -->
+                  <div class="control-material is-accent">
+                    <input id="projeto" class="material-input" type="text" required>
+                    <span class="material-highlight"></span>
+                    <span class="bar"></span>
+                    <label>Projeto</label>
+                  </div>
+                  <!-- /Form field -->
+                </div>
+              </div>
+              <div class="columns is-vcentered">
+                <div class="column is-12">
+                  <!-- Form field -->
+                  <div class="control-material is-accent">
+                    <input id="orcamento" class="material-input" type="text" required>
+                    <span class="material-highlight"></span>
+                    <span class="bar"></span>
+                    <label>Orçamento</label>
+                  </div>
+                  <!-- /Form field -->
+                </div>
+              </div>
+              <div class="columns is-vcentered">
+                <div class="column is-9">
+                  <button id="submit"
+                    class="button button-cta btn-align secondary-btn btn-outlined is-bold rounded raised no-lh modal-trigger success-trigger"
+                    data-modal="success-modal">Enviar Agora!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- /Contact form -->
+
+  <!-- Footer -->
+  <footer class="footer footer-dark">
+    <div class="container">
+      <div class="columns footer-columns is-flex-mobile">
+        <!-- Column -->
+        <div class="column is-half-mobile">
+          <div class="footer-column">
+            <div class="footer-header">
+              <!-- <h3>Product</h3> -->
+            </div>
+           
+          </div>
+        </div>
+        <!-- Column -->
+        <div class="column is-half-mobile">
+          <div class="footer-column">
+            <div class="footer-header">
+              <h3>Empresa</h3>
+            </div>
+            <ul class="link-list">
+              <li><a href="policy/index.html">Política de Privacidade</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Column -->
+        <div class="column is-half-mobile">
+          <div class="footer-column">
+            <div class="footer-header">
+              <!-- <h3>Portguês</h3> -->
+            </div>
+          
+          </div>
+        </div>
+        <!-- Column -->
+        <div class="column is-half-mobile">
+          <div class="footer-column">
+            <div>
+              <img src="assets/images/logo.png" alt="Logomarca" width="56px" height="56px" style="border-radius: 10%;">
+              <div class="footer-header">
+                <h3>©
+                  <script>document.write(new Date().getFullYear());</script> DARCA Softwares</h3>
+                <h4></h4>
+                <!--<h4>CNPJ </h4> -->
+              </div>
+            </div>
+            <div class="footer-header">
+              <nav class="level is-mobile">
+                <div class="level-left level-social">
+                  <a class="level-item" href="https://api.whatsapp.com/send?l=pt_br&amp;phone=5582998139292"
+                    target="_blank">
+                    <span class="icon"><i class="fa fa-whatsapp"></i></span>
+                  </a>
+                  <a class="level-item" href="https://facebook.com/darcasoftwares" target="_blank">
+                    <span class="icon"><i class="fa fa-facebook"></i></span>
+                  </a>
+                  <a class="level-item" href="https://instagram.com/darcasoftwares" target="_blank">
+                    <span class="icon"><i class="fa fa-instagram"></i></span>
+                  </a>
+
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Modal Markup -->
+  <div id="success-modal" class="modal modal-sm">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <div class="flex-card simple-shadow">
+        <div class="card-body has-text-centered">
+          <div class="content has-text-centered">
+            <div class="pb-20">
+              <img src="assets/images/illustrations/icons/modals/success.svg" />
+            </div>
+            <h2 class="title is-3 no-margin">Parabéns!</h2>
+            <p class="pt-20">Você deu o primeiro passo para a realização do seu projeto.</p>
+            <p class="pt-20">Em breve entraremos em contato com você, através do email ou telefone informado.</p>
+          </div>
+          <div class="mt-20">
+            <a class="button success-btn raised btn-align modal-dismiss">OK, Obrigado.</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="modal-close is-large is-hidden" aria-label="close"></button>
+  </div>
+  <!-- /Modal Markup -->
+
+  <div class="cookie-wrap fixed bottom" id="cookieWrap">
+    <div class="cookie-text">
+      <p>Este website está em conformidade com a Lei Geral de Proteção de Dados (LGPD) e utiliza cookies para oferecer
+        uma melhor experiência ao visitante. Ao navegar em nosso site, você concorda com a utilização de cookies e com a
+        nossa <a href="policy/index.html">Política de Privacidade</a></p>
+      <button class="cookie-accept" role="button" id="cookieAccept">Eu aceito</button>
+    </div>
+  </div>
+
+  <!-- Core js -->
+  <script src="assets/js/core/jquery.min.js"></script>
+  <script src="assets/js/core/modernizr.min.js"></script>
+  <!-- Jquery Mask CDN -->
+  <script src="../cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+  <!-- Plugins js -->
+  <script src="assets/js/slick-carousel/slick.min.js"></script>
+  <!-- <script src="assets/js/ggpopover/ggtooltip.js"></script> -->
+  <script src="assets/js/scrollreveal/scrollreveal.min.js"></script>
+  <script src="assets/js/pages/components-modals.js"></script>
+  <!-- Jquery Mask Money -->
+  <script src="assets/js/jquery-mask.js" type="text/javascript"></script>
+  <!-- Bulkit js -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/main/main.js"></script>
+  <!-- Page specific js -->
+  <script src="assets/js/pages/landing.js"></script>
+  <!-- Typing Source -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  <!-- Cookie JS -->
+  <script src="assets/js/cookie.js"></script>
+</body>
+
+
+<!-- Mirrored from www.darcasoftwares.com.br/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jun 2020 17:41:30 GMT -->
+</html>
